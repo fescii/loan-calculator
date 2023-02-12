@@ -1,6 +1,6 @@
 import math
 
-what_to_calculate = input('type "n" for number of monthly payments,\ntype "a" for annuity monthly payment amount,\ntype "p" for loan principal')
+what_to_calculate = input('type "n" for number of month payments,\ntype "a" for annuity monthly payment amount,\ntype "p" for loan principal')
 if what_to_calculate == 'n':
     loan_principal = int(input('\nEnter the loan principal:'))
     monthly_payment = int(input('\nEnter the monthly payment:'))
